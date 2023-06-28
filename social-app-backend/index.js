@@ -56,6 +56,7 @@ app.use("/conversation", conversationRoute);
 app.use("/message", messageRoute);
 app.use("/notification", notificationRoute);
 
+//Ket noi MongoDB
 mongoose.connect(process.env.DB_CONNECTION, (err) => {
   if (err) throw err;
   else {

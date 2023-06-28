@@ -42,11 +42,6 @@ export async function registerHandler(req, res) {
   const data = { ...req.body };
   try {
     //1. find user by username or email
-    // const existingUser = await factoryController.findOne(
-    //   User,
-    //   { $or: [{ email: data.email }, { username: data.username }] },
-    //   null
-    // );
     const existingUser = await User.findOne({
       $or: [{ email: data.email }, { username: data.username }],
     });

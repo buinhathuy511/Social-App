@@ -340,6 +340,7 @@ const InputPostModal: FC<InputPostModalProps> = ({ setIsShowPostModal, setPosts 
           tagsPeople={tagsPeople}
         />
       )}
+      {/* Chinh sua quyen rieng tu */}
       {isShowModalSelectAudience && (
         <ModalSelectAudience
           onClose={hanldeCloseSelectAudience}
