@@ -1,13 +1,13 @@
 
 # Social App
 
-Small Facebook clone - Written with ReactJS - Author [vanntrong](https://github.com/vanntrong)
+Small Facebook clone - Written with ReactJS - Author [nhathuy]()
 
 **_NOTE:_**
-This is a frontend part, if you want to see backend part please visit [https://github.com/vanntrong/social-app-backend](https://github.com/vanntrong/social-app-backend)
+This is a frontend part, if you want to see backend part please visit []()
 
 ## Site Demo
-[https://social-app.vovantrong.online/](https://social-app.vovantrong.online/)
+[]()
 
 ## Features
 - Expand your relationship, make more friends with the `friend` feature and `friend suggestion`
